@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">E-Petrol</string>
+    <string name="title_activity_maps">Map</string>
+    <string-array name="FuelType">
+
+        <item>Gas</item>
+        <item>Diesel</item>
+
+    </string-array>
+    <string-array name="CarType">
+        <item>Renoult</item>
+        <item>Mercedes</item>
+        <item>TOGG</item>
+        <item>BMW</item>
+        <item>Fiat</item>
+        <item>Honda</item>
+        <item>Hyundai</item>
+        <item>Pegeout</item>
+
+    </string-array>
+    <string-array name="FuelMark">
+        <item>Opet</item>
+        <item>Petrol Ofisi</item>
+        <item>Lukoil</item>
+        <item>Shell</item>
+        <item>Total</item>
+
+    </string-array>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

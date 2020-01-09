@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Login"
+    android:background="#363636"
+
+    >
+
+
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="match_parent"
+        android:layout_height="178dp"
+
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="1"
+        android:paddingLeft="50dp"
+        android:paddingTop="30dp"
+        app:srcCompat="@mipmap/ic_launcher_foreground" />
+
+
+
+    <LinearLayout
+        android:layout_marginTop="30dp"
+        android:id="@+id/linear"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_centerInParent="true"
+        android:orientation="vertical"
+
+        >
+
+        <EditText
+            android:textColor="#000000"
+
+            android:layout_marginHorizontal="30dp"
+            android:layout_marginVertical="8dp"
+            android:id="@+id/login_mail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/textinputshape"
+            android:ems="10"
+            android:textColorHint="#8b8b8b"
+            android:drawableLeft="@drawable/ic_email_black_24dp"
+            android:drawablePadding="8dp"
+            android:hint="example@gmail.com"
+            android:inputType="textPersonName"
+            />
+
+        <EditText
+            android:textColor="#000000"
+            android:layout_marginHorizontal="30dp"
+            android:layout_marginVertical="8dp"
+            android:id="@+id/login_pass"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/textinputshape"
+            android:ems="10"
+            android:hint="Password"
+            android:textColorHint="#8b8b8b"
+            android:drawableLeft="@drawable/ic_lock_black_24dp"
+            android:drawablePadding="8dp"
+            android:inputType="textPassword"
+            />
+
+        <Button
+            android:textColor="#FFFFFF"
+            android:layout_marginHorizontal="30dp"
+            android:layout_marginVertical="8dp"
+            android:id="@+id/login_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@drawable/buttonshape"
+            android:text="Login"
+            />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            >
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Don't have a account yet?"
+                android:layout_gravity="center"
+                android:textColor="#FFFFFF"/>
+
+            <Button
+                android:textColor="#00acee"
+                android:layout_marginHorizontal="30dp"
+                android:layout_marginVertical="8dp"
+                android:id="@+id/sign_button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@android:color/transparent"
+                android:text="SIGN UP"
+                />
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+</LinearLayout>
